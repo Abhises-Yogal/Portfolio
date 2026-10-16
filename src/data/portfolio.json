@@ -55,21 +55,21 @@
   "projects": [
     {
       "id": 1,
-      "title": "Paper Trading System with SIEM",
-      "description": "Currently developing a Paper Trading System integrated with a SIEM solution to simulate trading activities while monitoring, analyzing and detecting potential security threats in real time.",
-      "tags": ["ELK Stack", "DevSecOps", "Security Monitoring", "Web Development"],
-      "github": "#",
-      "live": null,
-      "featured": false
-    },
-    {
-      "id": 2,
       "title": "DimeTime",
       "description": "Developed DimeTime, a full-stack personal finance application that enables users to track income and expenses, filter transactions by month and visualize spending patterns through interactive charts.",
       "tags": ["Full-Stack Development", "JWT Authentication", "AI Integration", "bcrypt"],
       "github": "https://github.com/Abhises-Yogal/DimeTime",
       "live": "https://dimetime.netlify.app",
       "featured": true
+    },
+    {
+      "id": 2,
+      "title": "Paper Trading System with SIEM",
+      "description": "Currently developing a Paper Trading System integrated with a SIEM solution to simulate trading activities while monitoring, analyzing and detecting potential security threats in real time.",
+      "tags": ["ELK Stack", "DevSecOps", "Security Monitoring", "Web Development"],
+      "github": "#",
+      "live": null,
+      "featured": false
     },
     {
       "id": 3,
