@@ -35,7 +35,7 @@ function Contact({ contact, normalizeUrl }) {
             TOGETHER.
           </h2>
           <p className="contact-text">
-            I'm open to internships, freelance security consulting, and
+            I'm open to internships, freelance security consulting and
             collaborative CTF teams.
           </p>
           <div className="contact-socials stagger-group revealed-by-parent">
