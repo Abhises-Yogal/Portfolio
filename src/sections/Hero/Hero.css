@@ -20,7 +20,7 @@
   align-items: center;
   min-height: calc(100dvh - var(--nav-h, 84px));
   padding-top: 2.5rem;
-  padding-bottom: 4rem;
+  padding-bottom: calc(4rem + 80px);
   grid-template-columns: 1fr 1fr;
 }
 
