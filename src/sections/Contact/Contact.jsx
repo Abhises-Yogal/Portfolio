@@ -11,7 +11,7 @@ function Contact({ contact, normalizeUrl }) {
   const socialItems = [
     { label: 'GitHub', value: contact.github },
     { label: 'LinkedIn', value: contact.linkedin },
-    { label: 'Twitter', value: contact.twitter },
+    { label: 'Instagram', value: contact.instagram },
   ]
 
   const handleChange = (event) => {
