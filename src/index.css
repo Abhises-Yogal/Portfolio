@@ -21,6 +21,7 @@
   --max-w: 1280px;
   --section-pad: 140px 0;
   --nav-h: 84px;
+  --radius-pill: 999px;
 }
 
 * {
