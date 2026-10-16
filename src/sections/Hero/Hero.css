@@ -1,6 +1,7 @@
 .hero-section {
   position: relative;
-  min-height: 100svh;
+  min-height: 100dvh;
+  min-height: 100vh;
   padding-top: var(--nav-h, 84px);
   overflow: hidden;
 }
@@ -17,24 +18,27 @@
   display: grid;
   gap: clamp(2rem, 4vw, 4rem);
   align-items: center;
-  min-height: calc(100svh - var(--nav-h, 84px));
+  min-height: calc(100dvh - var(--nav-h, 84px));
   padding-top: 2.5rem;
   padding-bottom: 4rem;
+  grid-template-columns: 1fr 1fr;
 }
 
 .hero-text,
 .hero-globe {
   position: relative;
-  z-index: 1;
   will-change: transform;
   transition: transform 0.08s linear;
 }
 
 .hero-text {
+  z-index: 2;
   transform: translate3d(0, var(--hero-text-shift, 0px), 0);
 }
 
 .hero-globe {
+  z-index: 1; 
+  overflow: hidden;
   transform: translate3d(0, var(--hero-globe-shift, 0px), 0);
 }
 
@@ -233,6 +237,7 @@
 
 @media (max-width: 767px) {
   .hero-grid {
+    grid-template-columns: 1fr;
     min-height: auto;
     padding-top: 2rem;
     padding-bottom: 2rem;
