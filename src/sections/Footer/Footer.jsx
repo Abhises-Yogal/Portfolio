@@ -13,7 +13,7 @@ function Footer({ identity }) {
         </div>
         <p className="footer-centre">BUILT WITH REACT + VITE</p>
         <div className="footer-block footer-links">
-          <span>© 2025 {identity.name}</span>
+          <span>© 2026 {identity.name}</span>
           <a href="#home">Home</a>
           <a href="#projects">Projects</a>
           <a href="#contact">Contact</a>
