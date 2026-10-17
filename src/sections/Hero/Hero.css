@@ -9,7 +9,7 @@
 .hero-slash {
   position: absolute;
   inset: 0;
-  background: linear-gradient(135deg, transparent 18%, rgba(255, 69, 0, 0.06) 18%, rgba(255, 69, 0, 0.06) 32%, transparent 32%);
+  background: linear-gradient(135deg, transparent 18%, rgba(176, 38, 255, 0.06) 18%, rgba(176, 38, 255, 0.06) 32%, transparent 32%);
   clip-path: polygon(62% 0, 100% 0, 100% 100%, 38% 100%);
   pointer-events: none;
 }
@@ -138,7 +138,7 @@
 .hero-button-secondary {
   border: 1px solid var(--border-hot);
   color: var(--accent);
-  background: rgba(255, 69, 0, 0.04);
+  background: rgba(176, 38, 255, 0.04);
 }
 
 .hero-stats {
