@@ -125,7 +125,7 @@
   height: 72px;
   margin: 0 auto;
   border-radius: 50%;
-  background: rgba(255, 69, 0, 0.12);
+  background: rgba(176, 38, 255, 0.12);
   color: var(--accent);
   font-size: 2rem;
   animation: popIn 0.5s var(--ease-out-expo);
