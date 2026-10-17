@@ -60,7 +60,7 @@
       "tags": ["Full-Stack Development", "JWT Authentication", "AI Integration", "bcrypt"],
       "github": "https://github.com/Abhises-Yogal/DimeTime",
       "live": "https://dimetime.netlify.app",
-      "featured": true
+      "featured": false
     },
     {
       "id": 2,
@@ -69,7 +69,7 @@
       "tags": ["ELK Stack", "DevSecOps", "Security Monitoring", "Web Development"],
       "github": "#",
       "live": null,
-      "featured": true
+      "featured": false
     },
     {
       "id": 3,
@@ -98,10 +98,28 @@
       "type": "Education"
     },
     {
-      "year": "Apr 2025 - Aug 2025",
-      "title": "Network Administrator",
-      "org": "Times Global",
-      "type": "Internship"
+      "year": "Sep 2026",
+      "title": "Web Application Development",
+      "org": "Herald College Kathmandu",
+      "type": "Certification"
+    },
+    {
+      "year": "Aug 2026",
+      "title": "QA Automation",
+      "org": "Herald College Kathmandu",
+      "type": "Certification"
+    },
+    {
+      "year": "Aug 2026",
+      "title": "Certified GRC Practitioner",
+      "org": "CyberExam",
+      "type": "Certification"
+    },
+    {
+      "year": "Jan 2026",
+      "title": "Mastercard - Cybersecurity Job Simulation",
+      "org": "Forage",
+      "type": "Certification"
     },
     {
       "year": "Jul 2025",
@@ -110,28 +128,10 @@
       "type": "Certification"
     },
     {
-      "year": "Jan 2026",
-      "title": "mastercard - Cybersecurity Job Simulation",
-      "org": "Forage",
-      "type": "Certification"
-    },
-    {
-      "year": "Sep 2026",
-      "title": "Web Application Development",
-      "org": "Herald College Kathmandu",
-      "type": "Certification"
-    },
-    {
-      "year": "Aug 2026",
-      "title": "Certified GRC Practitioner",
-      "org": "CyberExam | Certification",
-      "type": "Certification"
-    },
-    {
-      "year": "Aug 2026",
-      "title": "QA Automation",
-      "org": "Herald College Kathmandu",
-      "type": "Certification"
+      "year": "Apr 2025 - Aug 2025",
+      "title": "Network Administrator",
+      "org": "Times Global",
+      "type": "Internship"
     }
   ],
   "marquee": [
