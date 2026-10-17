@@ -22,7 +22,8 @@ function Navbar({ initials, status, statusActive }) {
         }
       })
 
-      setActiveId(current)
+      const atBottom = window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 4
+      setActiveId(atBottom ? sectionIds[sectionIds.length - 1] : current)
     }
 
     handleScroll()
