@@ -1,5 +1,6 @@
 .about-section {
   padding: var(--section-pad);
+  overflow: hidden;
 }
 
 .about-grid {
@@ -14,7 +15,7 @@
 .about-ghost {
   position: absolute;
   left: -5.8rem;
-  top: 8rem;
+  top: calc(100% - 2rem);
   font-family: var(--font-display);
   font-size: clamp(80px, 11vw, 160px);
   line-height: 0.88;
