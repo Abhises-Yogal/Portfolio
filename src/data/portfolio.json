@@ -83,7 +83,7 @@
     {
       "id": 4,
       "title": "Restaurant Menu & Ordering System",
-      "description": "Developed a full-stack Restaurant Menu & Ordering System using PHP, MySQL, HTML, CSS and JavaScript, featuring role-based authentication, menu management, advanced search, AJAX-powered shopping cart functionality, order tracking and secure data handling.",
+      "description": "Developed a full-stack Restaurant Menu & Ordering System featuring role-based authentication, menu management, advanced search, AJAX-powered shopping cart functionality, order tracking and secure data handling.",
       "tags": ["Full-Stack Development", "Web Security", "RBAC", "Restaurant & Order Management"],
       "github": "https://github.com/Abhises-Yogal/Restaurant-Menu-Ordering-System",
       "live": null,
