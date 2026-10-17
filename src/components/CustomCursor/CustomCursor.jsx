@@ -23,14 +23,7 @@ function CustomCursor() {
   }
 
   useEffect(() => {
-    if (typeof window === 'undefined') {
-      return undefined
-    }
-
-    const canUseCursor = window.matchMedia('(pointer: fine)').matches
-    setEnabled(canUseCursor)
-
-    if (!canUseCursor) {
+    if (!enabled) {
       return undefined
     }
 
