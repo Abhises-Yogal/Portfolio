@@ -7,7 +7,9 @@ function CustomCursor() {
   const targetRef = useRef({ x: 0, y: 0 })
   const ringRefPos = useRef({ x: 0, y: 0 })
   const animationRef = useRef(0)
-  const [enabled, setEnabled] = useState(false)
+  const [enabled] = useState(
+    () => typeof window !== 'undefined' && window.matchMedia('(pointer: fine)').matches,
+  )
   const [hovering, setHovering] = useState(false)
   const [pressed, setPressed] = useState(false)
 
@@ -70,7 +72,7 @@ function CustomCursor() {
       window.removeEventListener('mouseup', handleUp)
       window.cancelAnimationFrame(animationRef.current)
     }
-  }, [])
+  }, [enabled])
 
   if (!enabled) {
     return null
